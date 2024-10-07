@@ -21,7 +21,7 @@ Sigue los pasos a continuación para configurar el entorno de desarrollo:
 
    ```bash
    git clone https://github.com/WHenriqueze/laravel-real-estate-api.git
-   cd nombre-del-repositorio
+   cd laravel-real-estate-api
 
 2. **Ejecutar Migrations**
 
@@ -35,6 +35,11 @@ Sigue los pasos a continuación para configurar el entorno de desarrollo:
 
    ```bash
     php artisan db:seed --class=UserSeeder
+
+   Se crea usuario y password para login y generación de token
+   
+   User: usuario@dominio.cl
+   Password: password
 
 
 
